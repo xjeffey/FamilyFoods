@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Family Foods
+Family Foods is an online recipe sharing platform for families where young adults connect to their heritage and loved ones through home inspired dishes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Description
+This is an important component of your project that many new developers often overlook.
 
-## Available Scripts
+Your description is an extremely important aspect of your project. A well-crafted description allows you to show off your work to other developers as well as potential employers.
 
-In the project directory, you can run:
+The quality of a README description often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase:
 
-### `npm start`
+<li>What your application does,</li>
+<li>Why you used the technologies you used,</li>
+<li>Some of the challenges you faced and features you hope to implement in the future.</li>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Table of Contents
+If your README is very long, you might want to add a table of contents to make it easy for users to navigate to different sections easily. It will make it easier for readers to move around the project with ease.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# How to Install and Run the Project
+If you are working on a project that a user needs to install or run locally in a machine like a "POS", you should include the steps required to install your project and also the required dependencies if any.
 
-### `npm test`
+Provide a step-by-step description of how to get the development environment set and running.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# How to Use the Project
+Provide instructions and examples so users/contributors can use the project. This will make it easy for them in case they encounter a problem – they will always have a place to reference what is expected.
 
-### `npm run build`
+You can also make use of visual aids by including materials like screenshots to show examples of the running project and also the structure and design principles used in your project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Also if your project will require authentication like passwords or usernames, this is a good section to include the credentials.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Include Credits
+If you worked on the project as a team or an organization, list your collaborators/team members. You should also include links to their GitHub profiles and social media too.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Also, if you followed tutorials or referenced a certain material that might help the user to build that particular project, include links to those here as well.
 
-### `npm run eject`
+This is just a way to show your appreciation and also to help others get a first hand copy of the project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tutorial: https://www.youtube.com/watch?v=B-kxUMHBxNo&t
+Material UI: https://mui.com/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Add a License
+For most README files, this is usually considered the last part. It lets other developers know what they can and cannot do with your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We have different types of licenses depending on the kind of project you are working on. Depending on the one you will choose it will determine the contributions your project gets.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The most common one is the GPL License which allows other to make modification to your code and use it for commercial purposes. If you need help choosing a license, use check out this link: https://choosealicense.com/
 
-## Learn More
+Up to this point what we have covered are the minimum requirements for a good README. But you might also want to consider adding the following sections to make it more eye catching and interactive.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Tests
+Go the extra mile and write tests for your application. Then provide code examples and how to run them.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will help show that you are certain and confident that your project will work without any challenges, which will give other people confidence in it, too
