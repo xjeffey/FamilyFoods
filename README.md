@@ -28,11 +28,22 @@ You can also make use of visual aids by including materials like screenshots to 
 Also if your project will require authentication like passwords or usernames, this is a good section to include the credentials.
 
 # Include Credits
+If you worked on the project as a team or an organization, list your collaborators/team members. You should also include links to their GitHub profiles and social media too.
+
+Also, if you followed tutorials or referenced a certain material that might help the user to build that particular project, include links to those here as well.
+
+This is just a way to show your appreciation and also to help others get a first hand copy of the project.
 
 # Add a License
+For most README files, this is usually considered the last part. It lets other developers know what they can and cannot do with your project.
 
-# Badges
+We have different types of licenses depending on the kind of project you are working on. Depending on the one you will choose it will determine the contributions your project gets.
 
-# How to Contribute to the Project
+The most common one is the GPL License which allows other to make modification to your code and use it for commercial purposes. If you need help choosing a license, use check out this link: https://choosealicense.com/
+
+Up to this point what we have covered are the minimum requirements for a good README. But you might also want to consider adding the following sections to make it more eye catching and interactive.
 
 # Tests
+Go the extra mile and write tests for your application. Then provide code examples and how to run them.
+
+This will help show that you are certain and confident that your project will work without any challenges, which will give other people confidence in it, too
