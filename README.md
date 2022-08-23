@@ -34,6 +34,9 @@ Also, if you followed tutorials or referenced a certain material that might help
 
 This is just a way to show your appreciation and also to help others get a first hand copy of the project.
 
+Tutorial: https://www.youtube.com/watch?v=B-kxUMHBxNo&t
+Material UI: https://mui.com/
+
 # Add a License
 For most README files, this is usually considered the last part. It lets other developers know what they can and cannot do with your project.
 
