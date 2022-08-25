@@ -1,23 +1,26 @@
 import React from 'react';
 import "./Header.css";
+import { AccountCircle, PersonAdd } from '@mui/icons-material';
+import { Button, IconButton } from '@mui/material';
 
 function Header() {
   return (
     <div className='header'>
-      <div className="header_left">
+      <div className="header-left">
         <h1>Family Circle Name</h1>
       </div>
 
-      <div className="middle">
+      <div className="header-middle">
         <h1>Memories</h1>
         <h1>Recipes</h1>
-        <h1>Requests</h1>
+        <h1>Requests (X)</h1>
       </div>
 
-      <div className="right">
-        <h1>Members Here</h1>
-        <h1>My Icon</h1>
-        <h1>Button</h1>
+      <div className="header-right">
+        <IconButton>
+          <AccountCircle fontSize='large' />
+        </IconButton>
+        <Button variant="contained" startIcon={<PersonAdd />}>Invite</Button>
       </div>
     </div>
   )
