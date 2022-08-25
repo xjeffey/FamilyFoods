@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Header.css";
 import { AccountCircle, PersonAdd } from '@mui/icons-material';
 import { Button, IconButton } from '@mui/material';
@@ -11,9 +12,9 @@ function Header() {
       </div>
 
       <div className="header-middle">
-        <h1>Memories</h1>
-        <h1>Recipes</h1>
-        <h1>Requests (X)</h1>
+        <Link className='nav-link' to="/Memories"><h1>Memories</h1></Link>
+        <Link className='nav-link' to="/Recipes"><h1>Recipes</h1></Link>
+        <Link className='nav-link' to="/Requests"><h1>Requests</h1></Link>
       </div>
 
       <div className="header-right">
