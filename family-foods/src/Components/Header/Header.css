@@ -1,3 +1,4 @@
+/* GENERAL HEADER */
 .header{
     display: flex;
     justify-content: space-between;
@@ -9,28 +10,59 @@
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
 
-.header-middle{
+/* LEFT SIDE OF THE HEADER */
+
+/* MIDDLE SIDE OF THE HEADER */
+.header__middle{
     display: flex;
     align-items: center;
+    padding: 0 30px;
     cursor: pointer;
 }
 
-.nav-link{
-    padding: 0 75px;
-    text-decoration: none;
-    color: black;
+.header__navLink > .MuiSvgIcon-root{
+    color:gray;
 }
 
-.nav-link:hover{
+.header__navLink:hover > .MuiSvgIcon-root{
+    color:#4168F0;
+}
+
+.header__navLink{
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    cursor: pointer;
+}
+
+.header__navLink:hover{
     background-color: #eff2f5;
     border-radius: 10px;
     align-items: center;
-    padding: 0 75px;
+    padding: 0 60px;
     border-bottom: none;
-    color:blue;
 }
 
-.header-right{
+.header__navLink--active > .MuiSvgIcon-root{
+    color:#4168F0;
+}
+
+.header__navLink--active{
+    border-bottom: 4px solid #4168F0;;
+}
+
+/* RIGHT SIDE OF THE HEADER */
+.header__right{
     display: flex;
     align-items: center;
 }
+
+.header__profile > .MuiIconButton-root{
+    color:gray;
+}
+
+.header__invite > .MuiButton-root{
+    color:white;
+    background-color: #4168F0;
+}
+

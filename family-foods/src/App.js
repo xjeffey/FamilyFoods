@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Header from './Components/Header/Header';
+import Home from './Pages/Home';
 import Memories from './Pages/Memories';
 import Recipes from './Pages/Recipes';
 import Requests from './Pages/Requests';
@@ -8,21 +9,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <div className="app">
-        <Header />
+    <div className="app">
+      <Header />
 
-        <Routes>
-          <Route exact path="/Memories" element={<Memories/>}></Route>
-          <Route exact path="/Recipes" element={<Recipes/>}></Route>
-          <Route exact path="/Requests" element={<Requests/>}></Route>
-        </Routes>
-        {/* App Body */}
-          {/* Side Bar */}
-          {/* Feed */}
+      {/* App Body */}
+      <div className="app__body">
+        {/* Side Bar */}
+        {/* Feed */}
       </div>
-    </Router>
-    
+    </div>  
   );
 }
 
