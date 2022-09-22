@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Memory.css";
-
-function Memory({ image, month, year }) {
+import { Avatar } from "@mui/material";
+function Memory({ image, profileSrc, title }) {
   return (
-    <div className='memory'>
-        <h4>{month} {year}</h4>
+    <div style={{  backgroundImage: `url(${image})` }} className='memory'>
+        <Avatar className="memory__avatar" src={profileSrc} />
+        <h4>{title}</h4>
     </div>
   )
 }
